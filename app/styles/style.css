@@ -1,0 +1,77 @@
+*{
+	margin : 0;
+	padding: 0;
+}
+.main-container{
+
+}
+.main-container .app-title {
+	text-align: center;
+}
+
+.main-container .people-loader , .main-container .people-zeroresult{
+	padding : 50px;
+	text-align: center;
+}
+.input-filter{
+	text-align: center;
+	padding: 10px;
+}
+.input-filter .title{
+	font-weight: bold;
+}
+
+.input-filter input, .input-filter select{
+	height: 25px;
+	box-shadow: 1px;
+	border-radius: 5px;
+	text-indent: 2px;
+	min-width: 70px;
+}
+.people-grid{
+	display: flex;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  	align-items: center;
+  	justify-content: center;
+}
+.people-grid .people-card{
+	border: 1px solid white;
+    box-sizing: border-box;
+    width: 240px;
+    height: 240px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px 0;
+    position: relative;
+}
+.people-grid .people-card .people-detail{
+	text-align: center;
+	height : 60px;
+}
+.people-grid .people-card .people-card-name{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.people-grid .people-card .people-film-title{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+.people-film-title .close-btn{
+	display: inline-block;
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    font-size: 10px;
+    border: 2px solid ;
+    border-radius: 9px;
+    width: 12px;
+    z-index: 10;
+    background: darkcyan;
+}
